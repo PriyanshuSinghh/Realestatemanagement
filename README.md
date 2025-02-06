@@ -1,2 +1,29 @@
-# Realestatemanagement
- Real Estate Management System  The Real Estate Management System is a comprehensive project designed to automate and streamline property management, tenant handling, lease agreements, payments, and maintenance requests. Built using SQL, this system provides an efficient way for landlords, property managers, and tenants to interact and manage rental properties, ensuring a smooth and organized process.  Key Features: Property Management: The system enables property owners or managers to register and manage their properties. Each property record includes essential details such as address, type (Apartment, House, Condo, etc.), rent amount, availability status, and the owner's name. This feature ensures landlords can maintain up-to-date information about their available and rented properties.  Tenant Management: The system stores detailed tenant information, including name, contact details, email, and date of birth. Tenants are linked to the properties they rent, which allows property managers to keep track of tenant history and rent payments. This is essential for efficient tenant communication and management.  Lease Management: The lease functionality in this system allows landlords to manage lease agreements, including lease start and end dates, rent amounts, and lease status (Active, Completed, Terminated). This feature provides landlords with a clear view of ongoing and upcoming lease terms, ensuring timely renewals or terminations.  Payment Tracking: The system tracks payments made by tenants, including payment methods (Credit Card, Bank Transfer, etc.), amounts, and dates. This helps property managers and landlords easily monitor payment statuses and identify any overdue payments or payment discrepancies.  Maintenance Requests: Tenants can report maintenance issues such as plumbing problems, broken appliances, or electrical faults. These requests are tracked in the system, with statuses indicating whether the issue is pending, in progress, or resolved. This feature helps improve tenant satisfaction by ensuring quick resolution of property-related issues.  The Real Estate Management System provides a structured and efficient solution for property managers, landlords, and tenants. This project demonstrates practical knowledge of relational databases, SQL, and efficient data management, making it an excellent addition to any developer’s portfolio.
+# Real Estate Management System
+
+## Description
+
+The Real Estate Management System is a comprehensive project built using SQL that helps manage property listings, tenants, leases, payments, and maintenance requests. It aims to simplify and automate the management of rental properties, making it easier for landlords and property managers to maintain an organized system for managing their properties and tenants.
+
+### Key Features:
+
+- **Property Management**: Register and manage properties, including address, type (Apartment, House, etc.), rent amount, and availability status.
+- **Tenant Management**: Store and manage tenant information, including their name, contact details, email, and associated property.
+- **Lease Management**: Track lease agreements, including lease start/end dates, rent amounts, and lease statuses (Active, Completed, Terminated).
+- **Payment Tracking**: Record and monitor tenant payments, including payment dates, methods (Credit Card, Bank Transfer, etc.), and amounts.
+- **Maintenance Requests**: Tenants can submit maintenance issues for their properties, and the system tracks their status (Pending, In Progress, Resolved).
+
+## Database Schema
+
+The database includes the following tables:
+
+- **Properties**: Stores information about properties available for rent.
+- **Tenants**: Stores details about tenants renting properties.
+- **Leases**: Links tenants with properties and tracks lease terms.
+- **Payments**: Records payments made by tenants for their leases.
+- **MaintenanceRequests**: Tracks maintenance issues reported by tenants for their rented properties.
+
+## Technologies Used
+
+- **SQL**: For managing database and relationships between tables.
+- **Database Systems**: Compatible with MySQL, PostgreSQL, or any relational database.
+
